@@ -1,0 +1,111 @@
+body {
+    margin-top: 150px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 83vh;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #2b2d42;
+    font-size: 50px;
+}
+
+/* Container holds the main content */
+#container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 3px solid transparent;
+    width: 60%;
+    background-color: #6c757d;
+    border-radius: 10px;
+    box-shadow: 11px 11px 10px -4px rgba(0,0,0,0.47);
+    -webkit-box-shadow: 11px 11px 10px -4px rgba(0,0,0,0.47);
+    -moz-box-shadow: 11px 11px 10px -4px rgba(0,0,0,0.47);
+    margin-top: -100px;
+}
+
+/* Container that adds a bit of space to the app */
+#subCont {
+    width: 90%;
+    margin: auto;
+}
+
+/* Container for buttons */
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Added a margin to the div holding the buttons */
+#buttonContainer > div {
+    margin: 0px 5px 0px 5px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-weight: 800;
+    background-color: #1976d2;
+    border: 2px solid #1976d2;
+    border-radius: 5px;
+    color: #E7ECEF;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.55);
+}
+
+button:hover {
+    background-color: #2196f3;
+    border: 2px solid #2196f3;
+    color: #E7ECEF;
+    transition: 0.5s;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+/* Container for list */
+#listContainer {
+    font-size: 25px;
+}
+
+/* Styles for the list */
+ol {
+    background-color: #ced4da;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+li {
+    padding: 10px;
+    color: #2b2d42;
+    text-decoration-line: underline; 
+    text-underline-offset: 3px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Added a copyright box at the bottom of the page */
+#copyRight {
+    font-weight: 600;
+    padding: 5px 0px;
+    width: 20%;
+    text-align: center;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Created By: https://github.com/MattRBennett */
